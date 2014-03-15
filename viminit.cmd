@@ -1,6 +1,9 @@
 @echo off
 
+rem ========================================
 rem setup the vim bundle manager first 
+rem ========================================
+
 IF NOT DEFINED HOME (
   echo Error: env variable HOME NOT defined!
   exit /B 1
@@ -20,11 +23,14 @@ IF NOT EXIST %target_dir% (
   echo NOTE: target dir:%target_dir% already exists, skip installing vundle ...
 )
 
+rem ========================================
 rem get our global vim config file 
+rem ========================================
+
 echo. 
-echo Generate %HOME%\.vimrc ...
+echo Generating %HOME%\.vimrc ...
 echo. 
-copy vimrc.config %HOME%\.vimrc
+copy dot.vimrc %HOME%\.vimrc
 
 echo Done.
 

@@ -1,4 +1,7 @@
+#
 # setup the vim bundle manager first 
+#
+
 target_dir=~/.vim/bundle/vundle
 if [ ! -e "$target_dir" ]
 then
@@ -8,11 +11,14 @@ then
   git clone https://github.com/gmarik/vundle.git $target_dir
 fi
 
+#
 # get our global vim config file 
+#
+
 echo 
-echo "Generate ~/.vimrc ..."
+echo "Generating ~/.vimrc ..."
 echo 
-cp vimrc.config ~/.vimrc
+cp dot.vimrc ~/.vimrc
 
 echo "Done."
 

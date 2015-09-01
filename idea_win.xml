@@ -1,0 +1,35 @@
+<!--
+  reference: https://www.jetbrains.com/idea/help/configuring-keyboard-shortcuts.html
+  put this file under:
+  - %HOME%/.IdeaIC14/config/keymaps/idea_win.xml
+  - %HOME%/.PyCharm40/config/keymaps/idea_win.xml
+-->
+<keymap version="1" name="idea.win" parent="$default">        
+  <action id="CloseActiveTab">                                
+    <keyboard-shortcut first-keystroke="shift control W" />   
+  </action>                                                   
+  <action id="CloseContent">                                  
+    <keyboard-shortcut first-keystroke="control W" />         
+  </action>                                                   
+  <action id="EditorLookupDown" />                            
+  <action id="EditorLookupUp" />                              
+  <action id="EditorScrollDown" />                            
+  <action id="EditorScrollUp" />                              
+  <action id="EditorSelectWord">                              
+    <keyboard-shortcut first-keystroke="control UP" />        
+  </action>                                                   
+  <action id="EditorStartNewLineBefore" />                    
+  <action id="EditorUnSelectWord">                            
+    <keyboard-shortcut first-keystroke="control DOWN" />      
+  </action>                                                   
+  <action id="Generate">                                      
+    <keyboard-shortcut first-keystroke="control alt ENTER" /> 
+  </action>                                                   
+  <action id="GotoSymbol">                                    
+    <keyboard-shortcut first-keystroke="control alt N" />     
+  </action>                                                   
+  <action id="Inline" />                                      
+  <action id="ShowProjectStructureSettings">                  
+    <keyboard-shortcut first-keystroke="shift control S" />   
+  </action>                                                   
+</keymap>                                                     
